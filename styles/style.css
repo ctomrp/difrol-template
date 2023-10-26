@@ -111,7 +111,7 @@ a {
 
 .recent-item:hover {
   transform: scale(1.005);
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 991px) {
