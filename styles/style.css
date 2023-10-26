@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+/* variables */
+:root {
+  --blue-gob: #1a63ab;
+  --purple-gob: #31347f;
+  --red-gob: #c7373b;
+  --bs-breadcrumb-divider: "/";
+}
+
+/* clases personalizadas bg-color*/
+.bg-blue-gob {
+  background: var(--blue-gob);
+}
+
+.bg-purple-gob {
+  background: var(--purple-gob);
+}
+
+.bg-red-gob {
+  background: var(--red-gob);
+}
+
+/* clases personalizadas text-color*/
+.text-blue-gob {
+  color: var(--blue-gob);
+}
+
+.text-purple-gob {
+  color: var(--purple-gob);
+}
+
+.text-red-gob {
+  color: var(--red-gob);
+}
+
+/* clases personalizadas border-bottom-color */
+.border-bottom-blue-gob {
+  border-bottom: var(--blue-gob) solid 4px;
+}
+
+.border-bottom-purple-gob {
+  border-bottom: var(--purple-gob) solid 4px;
+}
+
+.border-bottom-red-gob {
+  border-bottom: var(--red-gob) solid 4px;
+}
+
+/* breadcrumb-text-color */
+.bc-color-white {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-header {
+  width: 133px;
+  height: auto;
+}
+
+.search {
+  background: var(--blue-gob);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: xx-large;
+  border-bottom: 2px solid #fff;
+  width: 50vw;
+}
