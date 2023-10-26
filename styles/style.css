@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* variables */
 :root {
   --blue-gob: #1a63ab;
@@ -20,6 +30,7 @@
 .bg-red-gob {
   background: var(--red-gob);
 }
+/* FIN clases personalizadas bg-color*/
 
 /* clases personalizadas text-color*/
 .text-blue-gob {
@@ -33,6 +44,7 @@
 .text-red-gob {
   color: var(--red-gob);
 }
+/* FIN clases personalizadas text-color*/
 
 /* clases personalizadas border-bottom-color */
 .border-bottom-blue-gob {
@@ -46,6 +58,7 @@
 .border-bottom-red-gob {
   border-bottom: var(--red-gob) solid 4px;
 }
+/* FIN clases personalizadas border-bottom-color */
 
 /* breadcrumb-text-color */
 .bc-color-white {
@@ -53,13 +66,9 @@
   font-weight: 600;
   text-decoration: none;
 }
+/* FIN breadcrumb-text-color */
 
-html {
-  box-sizing: border-box;
-  margin: 0 auto;
-  font-family: "Roboto", sans-serif;
-}
-
+/* header */
 .logo-header {
   width: 133px;
   height: auto;
@@ -73,4 +82,40 @@ html {
   font-size: xx-large;
   border-bottom: 2px solid #fff;
   width: 50vw;
+}
+/* FIN header */
+
+/* main */
+.line-background {
+  background: var(--blue-gob); /* Color de fondo */
+  height: 4px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box {
+  border: 1px darkgray solid;
+  padding: 3rem;
+}
+
+.same-height-image {
+  height: 100%;
+  width: auto;
+}
+
+.underscore {
+  height: 6px;
+  width: 150px;
+  background: var(--red-gob);
+}
+
+.recent-item:hover {
+  transform: scale(1.005);
+  transition: 0.3s;
+}
+
+@media (max-width: 991px) {
+  .cover-list {
+    display: none;
+  }
 }
