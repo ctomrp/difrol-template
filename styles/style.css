@@ -114,6 +114,10 @@ a {
   transition: 0.3s ease-in-out;
 }
 
+.filter:hover{
+  background: #103e6b;
+}
+
 @media (max-width: 991px) {
   .cover-list {
     display: none;
