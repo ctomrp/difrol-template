@@ -15,8 +15,8 @@ a {
   --blue-gob: #1a63ab;
   --purple-gob: #31347f;
   --red-gob: #c7373b;
-  --gray-filter: #F0F4F9;
-  --gray-filter-top: #E2E9F2;
+  --gray-filter: #f0f4f9;
+  --gray-filter-top: #e2e9f2;
   --bs-breadcrumb-divider: "/";
 }
 
@@ -124,7 +124,7 @@ a {
   transition: 0.3s ease-in-out;
 }
 
-.btn-filter:hover{
+.btn-filter:hover {
   background: #103e6b;
 }
 
